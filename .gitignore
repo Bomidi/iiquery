@@ -4,4 +4,4 @@ base/ga/*.zip
 build
 plugin_src/.settings
 .settings
-
+.vscode/settings.json
