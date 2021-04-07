@@ -1,2 +1,7 @@
 .gradle
 base/ga/*.zip
+*.class
+build
+plugin_src/.settings
+.settings
+
