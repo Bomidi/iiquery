@@ -35,6 +35,8 @@ task unzip_identityiq_war (type: Copy) {
     into "./identityiq_unzipped/war"
 }
 
+build.dependsOn unzip_identityiq_war
+
 task plugin_prepare (type: Copy) {
     dependsOn tasks.unzip_identityiq_war
     from 'plugin_src'
@@ -50,12 +52,9 @@ task plugin_prepare_second (type: Copy) {
 task plugin(type: Zip) {
 
     dependsOn tasks.plugin_prepare_second
-    dependsOn tasks.build
-    dependsOn tasks.unzip_identityiq_war
 
     archiveFileName = "plugin.zip"
     destinationDirectory = file("$buildDir/dist")
 
     from "$buildDir/toArchive"
 }
-

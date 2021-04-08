@@ -1,7 +1,8 @@
 .gradle
 base/ga/*.zip
-*.class
+bin
 build
 plugin_src/.settings
 .settings
-.vscode/settings.json
+.vscode
+identityiq_unzipped
