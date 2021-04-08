@@ -16,6 +16,14 @@ Make sure you have been assigned the new `IIQueryRunner` capability (or `SystemA
 
 Now type in a HQL query and press _Search_.
 
+## Build
+
+Make sure you have Java and Node with yarn installed.
+
+~~~
+make build
+~~~
+
 ## Features
 
 * Run HQL queries
