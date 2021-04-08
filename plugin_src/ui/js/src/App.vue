@@ -109,8 +109,6 @@ export default {
   },
 
   mounted() {
-    console.log("mounted!");
-
     this.history = JSON.parse(localStorage.getItem("hql_history")) || [];
 
     document.onkeyup = (e) => {
@@ -145,7 +143,7 @@ export default {
 
       axios
         .post(
-          "/identityiq/plugin/rest/helloworld/search",
+          "/identityiq/plugin/rest/iiquery/search",
           {
             hql: this.hql,
             limit: this.limit,
