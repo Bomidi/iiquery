@@ -20,6 +20,8 @@ Now type in a HQL query and press _Search_.
 
 Make sure you have Java and Node with yarn installed.
 
+Also, [download](https://community.sailpoint.com/t5/IdentityIQ-Server-Software/ct-p/IdentityIQ) SailPoint IdentityIQ and store it in `base/ga/identityiq-8.1.zip`.
+
 ~~~
 make build
 ~~~
