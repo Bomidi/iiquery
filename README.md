@@ -6,19 +6,25 @@ You can already do this via the `iiq console`. This plugin brings the same funct
 
 ## Usage
 
-Install the plugin and visit the following URL.
+Install the plugin and visit the following URL or press the table icon in the navigation bar.
 
 ~~~
 http://YOUR-IDENTITYIQ-HOST/identityiq/plugins/pluginPage.jsf?pn=IIQuery
 ~~~
 
-Now type in a HQL query.
+Make sure you have been assigned the new `IIQueryRunner` capability (or `SystemAdministrator`).
+
+Now type in a HQL query and press _Search_.
 
 ## Features
 
 * Run HQL queries
 * Set first row and max results
 * Remembers the last 50 queries (in your web browser)
+
+## Screenshot
+
+![alt text](screenshot.png "Logo Title Text 1")
 
 ## Support
 

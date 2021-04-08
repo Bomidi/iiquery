@@ -26,7 +26,6 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
-    // TODO: ga uit van base/ga/identityiq-7.3.zip
     implementation fileTree('../identityiq_unzipped/war/WEB-INF/lib/') {
         include '*.jar'
     }
@@ -39,7 +38,6 @@ task copyJar(type: Copy) {
     into 'lib'
 }
 
-// TODO: create zip file
 task plugin(type: Zip) {
     dependsOn tasks.build
     dependsOn tasks.copyJar
