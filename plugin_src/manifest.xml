@@ -6,7 +6,7 @@
       <entry key="minUpgradableVersion" value="2.0" />
       <entry key="fullPage">
         <value>
-          <FullPage title="Todo List" />
+          <FullPage title="Query Runner" />
         </value>
       </entry>
       <entry key="restResources">
@@ -19,19 +19,16 @@
       <entry key="settings">
         <value>
           <List>
-            <Setting dataType="boolean" helpText="TodoPlugin_setting_delete_allowed_help_text" label="TodoPlugin_setting_delete_allowed_label" name="canDelete" defaultValue="true" />
-            <Setting dataType="string" helpText="TodoPlugin_setting_default_name_help_text" label="TodoPlugin_setting_default_name_label" name="defaultName" defaultValue="My Todo" />
-            <Setting dataType="int" helpText="TodoPlugin_setting_default_time_help_text" label="TodoPlugin_setting_default_time_label" name="defaultTime" defaultValue="30" />
-            <Setting dataType="int" helpText="TodoPlugin_setting_max_active_help_text" label="TodoPlugin_setting_max_active_label" name="maxUntilFlagged" defaultValue="10" />
+
           </List>
         </value>
       </entry>
       <entry key="snippets">
         <value>
           <List>
-            <Snippet regexPattern=".*">
+            <Snippet regexPattern=".*" rightRequired="IIQueryRunner">
               <Scripts>
-                <String>ui/js/snippets/test.js</String>
+                <String>ui/js/snippets/iiquery.js</String>
               </Scripts>
             </Snippet>
           </List>

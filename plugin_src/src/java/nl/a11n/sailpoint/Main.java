@@ -15,6 +15,7 @@ import sailpoint.api.SailPointFactory;
 import sailpoint.object.QueryOptions;
 import sailpoint.rest.plugin.AllowAll;
 import sailpoint.rest.plugin.BasePluginResource;
+import sailpoint.rest.plugin.RequiredRight;
 import sailpoint.tools.GeneralException;
 import sailpoint.tools.JsonHelper;
 
@@ -24,6 +25,7 @@ import org.apache.log4j.Logger;
  * @author Arie Timmerman
  */
 
+@RequiredRight("IIQueryRunner")
 @Path("iiquery")
 @Consumes({ "application/json", "*/*" })
 public class Main extends BasePluginResource {

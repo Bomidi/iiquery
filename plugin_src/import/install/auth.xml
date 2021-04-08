@@ -3,16 +3,15 @@
 
 <sailpoint>
 
-  <SPRight name="ViewFlaggedUsers" displayName="View Flagged Users">
-    <Description>Allows a user to view flagged users in the Todo Plugin</Description>
+  <SPRight name="IIQueryRunner" displayName="Run HQL queries with IIQuery">
+    <Description>Allows a user to run HQL queries via the Query Browser</Description>
   </SPRight>
 
-  <Capability name="FlaggedUserAdmin" displayName="Flagged User Admin">
-    <Description>The flagged user administrator in the Todo Plugin</Description>
+  <Capability name="IIQueryRunner" displayName="IIQueryRunner">
+    <Description>Allows a user to run HQL queries via the Query Browser</Description>
     <RightRefs>
-      <Reference class="sailpoint.object.SPRight" name="ViewFlaggedUsers"/>
+      <Reference class="sailpoint.object.SPRight" name="IIQueryRunner"/>
     </RightRefs>
   </Capability>
 
 </sailpoint>
-

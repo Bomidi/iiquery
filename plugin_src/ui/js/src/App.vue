@@ -86,7 +86,7 @@
     </div>
 
     <p class="credits">
-      Created by <a href="https://www.linkedin.com/in/arie/">Arie Timmerman</a>
+      Created by <a target="_blank" href="https://www.linkedin.com/in/arie/">Arie Timmerman</a>
     </p>
   </div>
 </template>
