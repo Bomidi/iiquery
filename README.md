@@ -1,6 +1,6 @@
 # IIQuery
 
-Fire [HQL](https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/queryhql.html) queries directly from the SailPoint IdentityIQ web interface.
+Run [HQL](https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/queryhql.html) queries directly from the SailPoint IdentityIQ web interface.
 
 You can already do this via the `iiq console`. This plugin brings the same functionality to the web interface.
 
@@ -23,6 +23,8 @@ Make sure you have Java and Node with yarn installed.
 ~~~
 make build
 ~~~
+
+The plugin will be stored in `build/dist/plugin.zip`.
 
 ## Features
 
