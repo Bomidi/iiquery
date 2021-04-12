@@ -1,8 +1,8 @@
-name: learn-github-actions
+name: Build iiquery
 on: [push]
 jobs:
   check-bats-version:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
