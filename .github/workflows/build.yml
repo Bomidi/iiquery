@@ -29,4 +29,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: iiquery-plugin
-          path: base/ga/identityiq-8.1.zip
+          path: build/dist/plugin.zip
