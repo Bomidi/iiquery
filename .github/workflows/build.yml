@@ -25,3 +25,8 @@ jobs:
           distribution: 'adopt'
       - name: Build with Ant
         run: ant
+      - name: Store plugin zip
+        uses: actions/upload-artifact@v2
+        with:
+          name: iiquery-plugin
+          path: base/ga/identityiq-8.1.zip
