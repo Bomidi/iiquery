@@ -1,0 +1,14 @@
+<project name="IIQuery" default="dist" basedir=".">
+    <description>
+      IIQuery
+    </description>
+
+    <target name="dist">
+        <tstamp />
+        <exec executable="./gradlew">
+            <arg value="plugin_prepare" />
+            <arg value="plugin" />
+        </exec>
+    </target>
+
+</project>
