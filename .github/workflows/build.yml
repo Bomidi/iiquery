@@ -9,7 +9,7 @@ jobs:
           lfs: true
       - uses: actions/checkout@v2
         with:
-          repository: 'git@github.com:arietimmerman/iiqbin.git'
+          repository: 'arietimmerman/iiqbin'
           ssh-key: ${{ secrets.KEY }}
           path: './binaries'
           lfs: true
